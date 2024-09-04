@@ -5,7 +5,7 @@ export default function Page() {
 
     const [users , setUsers] = useState([])
 
-    throw new Error("NOOOOOOOOOOOOOO")
+
     useEffect(() => {
         fetch("https://jsonplaceholder.typicode.com/users")
             .then(res => res.json())

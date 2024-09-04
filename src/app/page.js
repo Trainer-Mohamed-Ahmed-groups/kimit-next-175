@@ -9,7 +9,7 @@ export default function Home() {
 
       <Image
           className={styles.logo}
-          src="/next.svg"
+          src="/vercel.svg"
           alt="Next.js Logo"
           width={180}
           height={37}
